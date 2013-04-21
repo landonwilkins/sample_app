@@ -96,7 +96,8 @@ describe User do
 
   describe "with a password that's too short" do
     before { @user.password = "a" * 5 }
-    it { should be_invalid}
+    it { should be_invalid }
   end
+
 
 end
